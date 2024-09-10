@@ -1,6 +1,6 @@
 # vAMSYS Documentation
 
-Welcome to the **vAMSYS Documentation Project**. This repository hosts the source code for the documentation website available at [docs.vamsys.dev](https://docs.vamsys.dev).
+Welcome to the **vAMSYS Documentation Project**. This repository hosts the content for the documentation website available at [docs.vamsys.dev](https://docs.vamsys.dev)
 
 ## Overview
 
