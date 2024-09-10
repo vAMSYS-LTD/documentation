@@ -10,7 +10,7 @@ The **app** folder contains the primary code for the documentation website, incl
 
 ## Contributing
 
-We are currently accepting contributions to the `app` folder only. If you have suggestions, corrections, or improvements for the documentation website, feel free to submit a pull request. Please ensure you follow the guidelines below before contributing:
+If you have suggestions, corrections, or improvements for the documentation website, feel free to submit a pull request. Please ensure you follow the guidelines below before contributing:
 
 ### Steps to Contribute
 
