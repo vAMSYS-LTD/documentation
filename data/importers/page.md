@@ -200,24 +200,175 @@ For each importer, we will cover only columns of interest.
 * The ICAO or IATA code for the arrival airport.
   *Note: you should only use one of ID, ICAO or IATA when adding routes and the Import modal will ask which you wish to use. If you're using the ID, this field should be blank*
 ---
-* Start Date / End Date
-* Date and Time when the route starts/ends. End Date can be blank; Start Date can be any day in the past or the future. Format for both fields is yyyy-mm-dd hh:mm - please ensure you set correct formatting in your spreadsheet editor.
+* Callsign
+* Callsign for the route in the ICAO format. 
+  *Note: Must be a valid combination of ICAO and IATA code from the Airline Callsign Parameters section in the Orwell Settings -> VDS*
+---
+* Flight Number
+* Flight Number for the route in the IATA format. 
+  *Note: Must be a valid combination of ICAO and IATA code from the Airline Callsign Parameters section in the Orwell Settings -> VDS*
 ---
 * Fleets
 * Comma separated list of Fleet IDs - 5, 15, 25, 30. IDs can be retrieved from Export or VDS.
 ---
-* Departure Stand Group
-* Stand Group ID can be retrieved from Export. This field can be left blank but the column is required.
+* Altitude
+* Cruise altitude in the feet format (e.g. 35000).
+*Note: Can be Zero, in case you want the Simbrief to decide the cruise altitude*
 ---
-* Arrival Stand Group
-* Stand Group ID can be retrieved from Export. This field can be left blank but the column is required
+* Start Date / End Date
+* Date and Time when the route starts/ends. End Date can be blank; Start Date can be any day in the past or the future. Format for both fields is yyyy-mm-dd hh:mm - please ensure you set correct formatting in your spreadsheet editor.
+---
+* CI
+* Cost Index for the flight. Can be any value from 0 to 999.
+*Note: Can be blank. In that case, if using the Dispatch via Simbrief, an AUTO value is assigned to determine the Cost Index value for the flight, which is handled by Simbrief*
+---
+* Route
+* Route for the flight. vAMSYS will get rid of any SIDs, STARs, and Step Climbs within the route
+*Note: Can be blank, but the column is required. In that case, if using the Dispatch via Simbrief, the Simbrief will assign the route.*
+---
+* Departure Time
+* Standard departure time of the flight, in hh:mm format.
+*Note: Can be blank, but the column is required*
+---
+* Arrival Time
+* Standard arrival time of the flight, in hh:mm format.
+*Note: Can be blank, but the column is required*
+---
+* Flight Length
+* Flight length in hh:mm format.
+*Note: Can be blank, but the column is required. If blank, the value is calculated by vAMSYS by a general equation for an airliner*
+---
+* Flight Distance
+* Flight distance in nautical miles.
+*Note: Can be blank, but the column is required. If blank, the value is calculated by vAMSYS based on the route*
+---
+* Start date
+* Start date in yyyy-mm-dd hh:mm:ss value, when the flight should start to be bookable.
+---
+* End date
+* End date in yyyy-mm-dd hh:mm:ss value, when the flight should stop being bookable.
+*Note: Can be blank, but the column is required*
+---
+* Remarks
+* Any remarks or notes which are visible fo the pilot.
+*Note: Can be blank, but the column is required*
+---
+* Type
+* Type of the flight, based on the options in VDS. Can be "scheduled", "cargo", "charter", "training", "vfr", "repositioning", "jumpseat".
+*Note: Mandatory value*
 ---
 * Tag
-* Comma separated list of tags - Summer 2024, Winter 2024. This field can be left blank but the column is required.
+* Tag which can be any text string, based on which the flights can be filtered. Comma separated list.
+*Note: Can be blank, but the column is required*
 ---
-* Load Factor Columns (Optional)
-* A single integer containing relevant Load Factor ID. The ID can be retrieved from VDS or Load Factor export.
+* Departure Stand Group
+* Stand Group ID can be retrieved from Export.
+*Note: Can be blank, but the column is required*
 ---
+* Arrival Stand Group
+* Stand Group ID can be retrieved from Export
+*Note: Can be blank, but the column is required*
+---
+* PAX LF
+* A single integer containing relevant PAX Load Factor ID. The ID can be retrieved from VDS or Load Factor export.
+*Note: Can be blank, but the column is required*
+---
+* Luggage LF
+* A single integer containing relevant Luggage Load Factor ID. The ID can be retrieved from VDS or Load Factor export.
+*Note: Can be blank, but the column is required*
+---
+* Cargo (Weight) LF
+* A single integer containing relevant Cargo Weight Load Factor ID. The ID can be retrieved from VDS or Load Factor export.
+*Note: Can be blank, but the column is required*
+---
+* Cargo (Volume) LF
+* A single integer containing relevant Cargo Volume Load Factor ID. The ID can be retrieved from VDS or Load Factor export.
+*Note: Can be blank, but the column is required*
+---
+* Containers
+* Comma separated IDs of relevant container types. The IDs can be retrieved from VDS or Containers export.
+*Note: Can be blank, but the column is required*
+---
+* Flightrules
+* Simbrief API value for ICAO Flight Plan - Flight Rules field. Can be "i" or "v".
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Flighttype
+* Simbrief API value for ICAO Flight Plan - Flight Type field. Can be "s", "n", "g", "m","x".
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Contpct
+* Simbrief API value for Contingency Fuel in percents (0.05), or percents/minutes (0.05/15).
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Resvrule
+* Simbrief API value for Reserve Fuel in minutes.
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Taxifuel
+* Simbrief API value for Taxi Fuel in minutes.
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Minfob
+* Simbrief API value for the Minimum Block fuel in Pounds.
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Minfod
+* Simbrief API value for the Minimum Arrival fuel in Pounds.
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Melfuel
+* Simbrief API value for the MEL Fuel in pounds (0.5) or minutes (20).
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* atcfuel
+* Simbrief API value for the ATC fuel in pounds (0.5) or minutes (20).
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* wxxfuel
+* Simbrief API value for the Weather fuel in pounds (0.5) or minutes (20).
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* addedfuel
+* Simbrief API value for the Extra Fuel in pounds (0.5) or minutes (20).
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* tankering
+* Simbrief API value for the Tankering Fuel in pounds (0.5) or minutes (20).
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Minfob units
+* Simbrief API value for the Minimum Block Fuel units. Can be "min" as minutes, or "wgt" as in weight.
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Minfod units
+* Simbrief API value for the Minimum Arrival Fuel units. Can be "min" as minutes, or "wgt" as in weight.
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Melfuel units
+* Simbrief API value for the MEL Fuel units. Can be "min" as minutes, or "wgt" as in weight.
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Atc units
+* Simbrief API value for the ATC Fuel units. Can be "min" as minutes, or "wgt" as in weight.
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Wxx units
+* Simbrief API value for the Weather Fuel units. Can be "min" as minutes, or "wgt" as in weight.
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Addedfuel units
+* Simbrief API value for the Extra Fuel units. Can be "min" as minutes, or "wgt" as in weight.
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Tankering units
+* Simbrief API value for the Tankering Fuel units. Can be "min" as minutes, or "wgt" as in weight.
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---
+* Addedfuel label
+* Simbrief API value for the Extra Fuel label. Can be "extra", "acf90", "acf99", "addnl", "apu", "hold", "naifr", "opn"
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+---	
 * Delete
 * Enter '1' to delete, otherwise blank.
 {% /table %}
