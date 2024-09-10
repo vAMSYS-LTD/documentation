@@ -288,83 +288,83 @@ For each importer, we will cover only columns of interest.
 ---
 * Flightrules
 * Simbrief API value for ICAO Flight Plan - Flight Rules field. Can be "i" or "v".  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Flighttype
 * Simbrief API value for ICAO Flight Plan - Flight Type field. Can be "s", "n", "g", "m","x".  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Contpct
 * Simbrief API value for Contingency Fuel in percents (0.05), or percents/minutes (0.05/15).  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Resvrule
 * Simbrief API value for Reserve Fuel in minutes.  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Taxifuel
 * Simbrief API value for Taxi Fuel in minutes.  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Minfob
 * Simbrief API value for the Minimum Block fuel in Pounds.  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Minfod
 * Simbrief API value for the Minimum Arrival fuel in Pounds.  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Melfuel
 * Simbrief API value for the MEL Fuel in pounds (0.5) or minutes (20).  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * atcfuel
 * Simbrief API value for the ATC fuel in pounds (0.5) or minutes (20).  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * wxxfuel
 * Simbrief API value for the Weather fuel in pounds (0.5) or minutes (20).  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * addedfuel
 * Simbrief API value for the Extra Fuel in pounds (0.5) or minutes (20).  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * tankering
 * Simbrief API value for the Tankering Fuel in pounds (0.5) or minutes (20).  
-*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, but the column is required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Minfob units
 * Simbrief API value for the Minimum Block Fuel units. Can be "min" as minutes, or "wgt" as in weight.  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Minfod units
 * Simbrief API value for the Minimum Arrival Fuel units. Can be "min" as minutes, or "wgt" as in weight.  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Melfuel units
 * Simbrief API value for the MEL Fuel units. Can be "min" as minutes, or "wgt" as in weight.  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Atc units
 * Simbrief API value for the ATC Fuel units. Can be "min" as minutes, or "wgt" as in weight.  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Wxx units
 * Simbrief API value for the Weather Fuel units. Can be "min" as minutes, or "wgt" as in weight.  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Addedfuel units
 * Simbrief API value for the Extra Fuel units. Can be "min" as minutes, or "wgt" as in weight.  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Tankering units
 * Simbrief API value for the Tankering Fuel units. Can be "min" as minutes, or "wgt" as in weight.  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---
 * Addedfuel label
 * Simbrief API value for the Extra Fuel label. Can be "extra", "acf90", "acf99", "addnl", "apu", "hold", "naifr", "opn".  
-*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the Navigraph Forum - https://forum.navigraph.com/t/the-simbrief-api/5298*
+*Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---	
 * Delete
 * Enter '1' to delete, otherwise blank.
