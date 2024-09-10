@@ -8,6 +8,7 @@ nextjs:
 {% callout type="warning" title="Work In Progress!" %}
 Documentation is work in progress. If you notice discrepancies between documentation here and reality on vAMSYS, please let us know in Discord so we can fix it.
 {% /callout %}
+
 Orwell, named after George Orwell, serves as the 'supervisor' and administrative hub within the vAMSYS ecosystem. It is the central area where all crucial settings are configured, impacting how Phoenix, VDS, and other vAMSYS subsystems function. Within Orwell, you can manage pilot lists, post NOTAMs and Alerts, review Liveries and PIREPs, set Scoring rules, and handle Pages, Ranks, and Badges, among other configuration and design settings.
 
 ## Orwell Dashboard
