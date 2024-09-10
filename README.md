@@ -39,3 +39,4 @@ If you have suggestions, corrections, or improvements for the documentation webs
 - Please ensure that any changes you make to the `app` folder are focused on improving the documentation website, such as fixing errors, improving clarity, or adding new content.
 - For bug fixes, please provide a detailed description of the problem and how your change resolves it.
 - Make sure your code adheres to the style and structure of the existing project.
+  
