@@ -1,10 +1,10 @@
-# VAMSYS Documentation
+# vAMSYS Documentation
 
-Welcome to the **VAMSYS Documentation Project**. This repository hosts the source code for the documentation website available at [docs.vamsys.dev](https://docs.vamsys.dev).
+Welcome to the **vAMSYS Documentation Project**. This repository hosts the source code for the documentation website available at [docs.vamsys.dev](https://docs.vamsys.dev).
 
 ## Overview
 
-This project provides comprehensive documentation for the **VAMSYS** platform, including user guides, API references, and tutorials to help users get the most out of the system.
+This project provides comprehensive documentation for the **vAMSYS** platform, including user guides, API references, and tutorials to help users get the most out of the system.
 
 The **app** folder contains the primary code for the documentation website, including various components, pages, and other resources. We welcome contributions to this folder in the form of pull requests.
 
