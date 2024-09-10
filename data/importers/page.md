@@ -215,9 +215,6 @@ For each importer, we will cover only columns of interest.
 * Cruise altitude in following formats: 35000, FL350, /350 or 350
   *Note: Can be blank, in case you want the Simbrief to decide the cruise altitude, but the column is required*
 ---
-* Start Date / End Date
-* Date and Time when the route starts/ends. End Date can be blank; Start Date can be any day in the past or the future. Format for both fields is yyyy-mm-dd hh:mm - please ensure you set correct formatting in your spreadsheet editor.
----
 * CI
 * Cost Index for the flight. Can be any value from 0 to 999.
   *Note: Can be blank. In that case, if using the Dispatch via Simbrief, an AUTO value is assigned to determine the Cost Index value for the flight, which is handled by Simbrief*
