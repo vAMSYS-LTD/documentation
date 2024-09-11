@@ -41,17 +41,21 @@ Our official support is always open - details for which you can find in your Orw
 
 ## Changelog
 Instructions and steps might change between now and the go-live-date. We will note changes here, so you can revisit the sections you have completed already.
+#### 2024-09-11
+- Changes to Phoenix Dashboard -> Boxes Component  
+To implement an improvement request where Boxes should be of even size - they are now arranged in grids of up to 12 items. If you have set up the boxes previously, they may now be too small and you will need to adjust and make additional box components as necessary.
+
+- Changes to Pages - Addition of Rank Restrictions  
+Pages can now have rank restrictions. Not a breaking change and existing pages will work fine - noting it down in case it's a feature you want to use for your upcoming v5 pages.
 #### 2024-08-30
-- Changes to Logos
-
+- Changes to Logos  
 Changed as to where logos are shown. To accommodate customisations of color, where Light Background logo is suitable on Phoenix, but not suitable on Orwell or VDS, one logo is now used exclusively for Phoenix whilst the other is used everywhere else.
-#### 2024-08-29
-- Changes to Documents and Resources Pages URL Structure
 
+#### 2024-08-29
+- Changes to Documents and Resources Pages URL Structure  
 If you made some pages and linked them elsewhere, the URL structure has now changed from /phoenix/documents/custom/[your URL] to /phoenix/documents/[your URL]. Please change your links as needed.
 #### 2024-08-26
-- Added ACARS Resource Page section.
-
+- Added ACARS Resource Page section.  
 If you have created/edited ACARS page, you need to restore new version. You will know you have correct version if the page contains 3 download links - one for windows, 2 for apple.
 #### 2024-08-24
 - Week 4: Added Style section
