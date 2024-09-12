@@ -29,7 +29,7 @@ If you haven't yet, please check [Major Changes](/migration) to see what's new t
 - Ban Pilots
 - Use Pilot Invite
 
-To prevent unintended consequences, some features of v5 are temporarily disabled - namely - importers for Aircraft, Fleet and Airports; Autorejects; Livery and PIREP review and others.
+To prevent unintended consequences, some features of v5 are temporarily disabled - namely - importers for Creating/Deleting Aircraft, Fleet and Airports (editing is OK); Autorejects; Livery and PIREP review and others.
 
 ## I need help / I have encountered a bug
 vAMSYS v5 is still work in progress, so things may change or you may come across a bug during the migration.
