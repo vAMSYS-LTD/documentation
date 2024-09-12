@@ -11,6 +11,56 @@ Documentation is work in progress. If you notice discrepancies between documenta
 
 The Design component in vAMSYS allows VAs to customize their interface and branding across the platform. This guide provides a detailed overview of the customization options available, including the Phoenix Dashboard, logos, social icons, and email templates.
 
+## Logos
+{% table %}
+* Where
+*  {% align="center" %}
+* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
+---
+* Orwell -> Design -> Logo
+*  {% align="center" %}
+* Can Manage Design Settings {% align="right" %}
+{% /table %}
+
+The logo section allows you to upload different logos for bright and dark backgrounds, as well as for the select VA page and email headers. We **strongly urge** a size of 1800x400 pixels for optimal display.
+
+### Logo Options
+- **Logo for Bright Backgrounds**: Shown on Phoenix on Bright Theme.
+- **Logo for Dark Backgrounds**: Shown on Phoenix on Dark Theme.
+- **Logo for Select VA Page (Bright)**: Shown on the Select VA Page, Pegasus ACARS, Orwell and VDS on Bright Theme, and outgoing emails.
+- **Logo for Select VA Page (Dark)**: Shown on the Select VA Page and Pegasus ACARS, Orwell and VDS on Dark Theme.
+- **Background Images**: Displayed on the VA's Login and Register pages. Multiple images can be uploaded, with one selected at random each time. Recommended resolution is 2560x1600 pixels.
+
+## Style
+{% table %}
+* Where
+*  {% align="center" %}
+* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
+---
+* Orwell -> Design -> Style
+*  {% align="center" %}
+* Can Manage Design Settings {% align="right" %}
+{% /table %}
+
+- In this section, you can manage the look and feel of your Virtual Airline! There are two possible approaches, which can even be combined.
+
+### Basic
+
+A basic approach is very straightforward. In the first section of the page, you have a set of elements which the vAMSYS v5 template is using, and you can assign any color via the Hexcode, or using the color palette, which appears after you click into the individual field.
+
+### Advanced
+
+An advanced approach is to create a custom CSS stylesheet. 
+  
+**We highly recommend doing this only if you know what you're doing, because creating CSS requires some technical knowledge. Team vAMSYS provides NO SUPPORT regarding the custom CSS.**
+  
+After you create your stylesheet, you may upload it via the CSS File section, and after you save it, the CSS gets applied. (*Important note: The CSS, and Style customization in general, is applied only to the Phoenix. Not to the Orwell and VDS*)
+
+#### **Helpful links**
+- Jan (one of the VA Owners) has made his CSS template public, and made available for anyone to use. In case you want a good starting point, or just an end to end solution, we highly recommend paying his [Github repository](https://github.com/DarrianCZE/vamsys-v5-custom-css) a visit!
+- There is also a [general tutorial](https://developer.chrome.com/docs/devtools/css) from Google about how you can use your browser's Inspector tool to get relevant information for your CSS.
+- And lastly, a very nice tutorial for the CSS from [W3Schools](https://www.w3schools.com/css/)!
+
 ## Phoenix Dashboard
 {% table %}
 * Where
@@ -52,39 +102,6 @@ The dashboard editor allows you to add rows and blocks, each with customizable c
 - **Events**: Shows events with options for which events to display (all, random, first).
 - **Flight Map**: Displays a flight map with customizable height.
 - **Flight List**: Lists all active flights. No additional settings.
-
-## Logos
-{% table %}
-* Where
-*  {% align="center" %}
-* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
----
-* Orwell -> Design -> Logo
-*  {% align="center" %}
-* Can Manage Design Settings {% align="right" %}
-{% /table %}
-
-The logo section allows you to upload different logos for bright and dark backgrounds, as well as for the select VA page and email headers. We **strongly urge** a size of 1800x400 pixels for optimal display.
-
-## Style
-{% table %}
-* Where
-*  {% align="center" %}
-* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
----
-* Orwell -> Design -> Style
-*  {% align="center" %}
-* Can Manage Design Settings {% align="right" %}
-{% /table %}
-
-Work In Progress
-
-### Logo Options
-- **Logo for Bright Backgrounds**: Shown on Phoenix on Bright Theme.
-- **Logo for Dark Backgrounds**: Shown on Phoenix on Dark Theme.
-- **Logo for Select VA Page (Bright)**: Shown on the Select VA Page, Pegasus ACARS, Orwell and VDS on Bright Theme, and outgoing emails.
-- **Logo for Select VA Page (Dark)**: Shown on the Select VA Page and Pegasus ACARS, Orwell and VDS on Dark Theme.
-- **Background Images**: Displayed on the VA's Login and Register pages. Multiple images can be uploaded, with one selected at random each time. Recommended resolution is 2560x1600 pixels.
 
 ## Social Icons
 {% table %}
