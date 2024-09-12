@@ -184,7 +184,7 @@ Pilot Sharing Agreements are dealt with differently in v5 and are not carried ov
 * [Here](/orwell/ranks) {% align="right" %}
 {% /table %}
 
-1. Re-upload all rank images. You will know it's done if when editing a rank the 'Rank Icon' field contains an image and not a 'Browse' button.
+1. Re-upload all rank images. You will know it's done if when editing a rank the 'Rank Icon' field contains an image and not a 'Browse' button. You are more than welcome to use v3 images or any image from our [rank gallery](https://docs.vamsys.dev/orwell/ranks#example-epaulettes).
 2. Add Abbreviation - a new v5 only field for rank abbreviation.
 
 Rank edits such as name, hours, points and rank icon will be reflected in v3.
