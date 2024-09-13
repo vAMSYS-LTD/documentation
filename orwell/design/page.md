@@ -42,24 +42,23 @@ The logo section allows you to upload different logos for bright and dark backgr
 * Can Manage Design Settings {% align="right" %}
 {% /table %}
 
-- In this section, you can manage the look and feel of your Virtual Airline! There are two possible approaches, which can even be combined.
+In this section, you can manage the look and feel of your Virtual Airline/
 
-### Basic
+### Colors
 
-A basic approach is very straightforward. In the first section of the page, you have a set of elements which the vAMSYS v5 template is using, and you can assign any color via the Hexcode, or using the color palette, which appears after you click into the individual field.
+vAMSYS offers a basic set of color overrides to make a quick change to how your VA looks. You can assign any color via the Hexcode, or using the color palette, which appears after you click into the individual field.
 
-### Advanced
+### Stylesheet
+An advanced approach is to create a custom CSS stylesheet. CSS Overrides are a "raw" way to directly override the style of vAMSYS.
 
-An advanced approach is to create a custom CSS stylesheet. 
-  
-**We highly recommend doing this only if you know what you're doing, because creating CSS requires some technical knowledge. Team vAMSYS provides NO SUPPORT regarding the custom CSS.**
-  
-After you create your stylesheet, you may upload it via the CSS File section, and after you save it, the CSS gets applied. (*Important note: The CSS, and Style customization in general, is applied only to the Phoenix. Not to the Orwell and VDS*)
+We highly recommend doing this only if you know what you're doing, because creating CSS requires some technical knowledge. Team vAMSYS does not provide support for creating, maintaining or updating your CSS.
 
-#### **Helpful links**
-- Jan (one of the VA Owners) has made his CSS template public, and made available for anyone to use. In case you want a good starting point, or just an end to end solution, we highly recommend paying his [Github repository](https://github.com/DarrianCZE/vamsys-v5-custom-css) a visit!
-- There is also a [general tutorial](https://developer.chrome.com/docs/devtools/css) from Google about how you can use your browser's Inspector tool to get relevant information for your CSS.
-- And lastly, a very nice tutorial for the CSS from [W3Schools](https://www.w3schools.com/css/)!
+*Note: The CSS, and Style customization in general, is applied only to the Phoenix. Not to the Orwell and VDS.*
+
+#### Helpful Links and Resources
+- Jan (one of the VA Owners) has made his CSS template public and available for anyone to use at this [Github repository](https://github.com/DarrianCZE/vamsys-v5-custom-css).
+- [Inspector tools](https://developer.chrome.com/docs/devtools/css) tutorial from Google.
+- [W3Schools](https://www.w3schools.com/css/) CSS Tutorial.
 
 ## Phoenix Dashboard
 {% table %}
