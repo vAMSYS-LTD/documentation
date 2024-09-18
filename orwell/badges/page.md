@@ -109,7 +109,12 @@ Badges can be awarded automatically based on the following rules, each requiring
 Manually awarded badges (badges with no Rule set) can be added to a pilot by editing their profile in Orwell.
 
 ### Automatically Awarded Badges
-Badges awarded automatically are processed based on the rules set and the PIREP processing routine. For example, a badge for Length of Service will be awarded only if the pilot continues to fly.
+Automatically awarded badges (those with rules set) are processed with PIREPs. This means that badge eligibility is checked with each PIREP processed.
+For example - at midnight one of your pilot accounts might turn 10 years old - badge for 10 years of service will not be awarded until they file a next PIREP or one of their existing ones in reprocessed.
+
+Airport related rules operate as an 'and' condition - for example - to get a badge 'Go Essex!', the pilot needs to have flown into Luton, into Stansted and into Cambridge - all 3 airports set during badge creation.
+
+Automatically awarded badges are limited to 1 per pilot - pilots will not be awarded duplicate badges.
 
 ## Editing a Badge
 Editing a badge does not remove it from pilots who have already earned it. Be cautious when editing badge details, categories, or rules, as the badge will retain its status with those pilots.
