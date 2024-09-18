@@ -8,7 +8,7 @@ nextjs:
 
 vAMSYS v5 has reached a stable phase, allowing Virtual Airlines (VAs) to begin configuring new settings and utilizing the enhanced features to prepare for the upcoming launch. It is crucial to follow the checklist provided—failure to complete these steps will result in your VA being non-operational on the v5 launch day, and your pilots will be unable to access or perform any activities within your Virtual Airline.
 
-We anticipate v5 will go live on September 24, 2024. While we don’t have a detailed play-by-play for that day yet, expect a few hours of downtime as we transition from v3 to v5. A more precise schedule for September 24th will be communicated closer to the launch date.
+v5 goes live on 26th September. [We have published the play-by-play for the day here](/migration/launch).
 
 To ensure a smooth and unrushed migration, we’ve outlined a series of milestones to be completed over the four weeks leading up to the launch. These milestones are grouped by week:
 
