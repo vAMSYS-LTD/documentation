@@ -50,17 +50,23 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html
-      lang="en"
-      className={clsx('h-full antialiased', inter.variable, lexend.variable)}
-      suppressHydrationWarning
-    >
+      <html
+          lang="en"
+          className={clsx('h-full antialiased', inter.variable, lexend.variable)}
+          suppressHydrationWarning
+      >
+      <script
+          async
+          defer
+          data-domain="docs.vamsys.dev"
+          src="https://plausible.vamsys.dev/js/script.js"
+      />
       <body className="flex min-h-full bg-white dark:bg-slate-900">
-      <GoogleAnalytics gaId="G-FPQGQN2758" />
-        <Providers>
-          <Layout>{children}</Layout>
-        </Providers>
+      {/*<GoogleAnalytics gaId="G-FPQGQN2758" />*/}
+      <Providers>
+        <Layout>{children}</Layout>
+      </Providers>
       </body>
-    </html>
+      </html>
   )
 }
