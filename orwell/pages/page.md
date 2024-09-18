@@ -78,7 +78,9 @@ The Pegasus ACARS page can be edited and serves as an excellent example of how t
 If the Pegasus ACARS page is deleted, you can restore it by selecting the "Restore ACARS Page" action in the Pages List. This will recreate the page with its default content and place it in the Resources category.
 
 ## Deleting a Page
-To delete a page, select the delete option from the actions menu. Note that this action is irreversible, and special pages cannot be deleted.
+To delete a page, select the delete option from the actions menu. Note that this action is irreversible.
+
+Special Pages cannot be deleted, nor can you delete the page set as [VA Rules](/settings/airline#general-settings)
 
 ## Editing a Page
 Editing a page allows you to modify its content, settings, and URL. Be cautious when making significant changes to avoid confusion for pilots who have accessed the page previously.

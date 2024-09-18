@@ -34,6 +34,7 @@ This section contains basic configurations for your VA.
 - **Pilot Support URL**: URL of your support system for pilots, shown in navigation if entered.
 - **Maintenance Mode**: Puts the VA in Maintenance Mode. Your pilots will be redirected to a maintenance page, where Maintenance Message is shown. VA Staff will be able to access and interact with VA as normal. You can see what the page will look like by clicking 'Preview Page'.
 - **Maintenance Message**: Custom message you want to display to your pilots on the maintenance page.
+- **Rules Page**: Assign [Page](/orwell/pages) which contains your VA rules. Will be visible to guests who are registering for your VA.
 
 #### Modules
 - **Enable Events**: Toggle to enable the Event system.
