@@ -1,9 +1,9 @@
 ---
-title: Using Regular Expressions To Determine The Type Of Flight
+title: Using Regular Expressions To Determine The Type of Flight
 nextjs:
   metadata:
-    title: Using Regular Expressions To Determine The Type Of Flight
-    description: Using Regular Expressions To Determine The Type Of Flight.
+    title: Using Regular Expressions To Determine The Type of Flight
+    description: Using Regular Expressions To Determine The Type of Flight.
 ---
 
 {% table %}
