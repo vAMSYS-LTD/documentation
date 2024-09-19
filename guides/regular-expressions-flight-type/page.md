@@ -1,8 +1,18 @@
-# Using Regular Expressions To Determine The Type Of flight
+---
+title: Using Regular Expressions To Determine The Type Of flight
+nextjs:
+  metadata:
+    title: Using Regular Expressions To Determine The Type Of flight
+    description: Using Regular Expressions To Determine The Type Of flight.
+---
 
-Author: Jan Podlipský (TVS32) - jan.podlipsky@sw-virtual.eu
-  
-**Important notice: This guide has been made by the community, and vAMSYS team provides no support!**
+{% table %}
+* Author {% align="right" %}
+---
+* Jan Podlipský (TVS32) - jan.podlipsky@sw-virtual.eu
+{% /table %}
+
+This is a community guide and not part of official vAMSYS documentation.
 
 ## Description Of The Use Case
 
