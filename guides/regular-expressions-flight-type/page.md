@@ -57,7 +57,7 @@ Based on what we have described above, you would say, that this is a different p
 
 You can also use some combinations to match several patterns by one Regular Expressions. The number of characters in the curly brackets doesn't have to be one number, but a several ones.
 
-So, in order, to write a Regular Expression which will match both of these patterns, you only need to write it like this:
+So, in order to write a Regular Expression which will match both of these patterns, you only need to write it like this:
 
 ```[A-Z]{3}\d{1,2}[A-Z]{1,2}```
 
