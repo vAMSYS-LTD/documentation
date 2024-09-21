@@ -112,6 +112,7 @@ Configurations for booking settings within your VA.
     - **Jumpseat+ Enable Jumpseat to Bases**: Allow jumpseat to bases outside of the available route network. Visible only if Jumpseat System is enabled.
     - **Jumpseat Anywhere**: Allow pilots to jumpseat to any airport in the entire network. Visible only if Jumpseat System is enabled.
 - **Highlight Booked Aircraft**: In flight dispatch, aircraft which are booked in other bookings will be highlighted.
+- **Disable Stands**: Disables Arrival and Departure stand selection boxed in Phoenix Dispatch.
 
 
 ## PIREP Settings
