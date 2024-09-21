@@ -42,7 +42,7 @@ Our official support is always open - details for which you can find in your Orw
 ## Changelog
 Instructions and steps might change between now and the go-live-date. We will note changes here, so you can revisit the sections you have completed already.
 #### 2024-09-21
-- Changes to Social Icons - Show in Navigation Menu/Show in Email Footer
+- Changes to Social Icons - Show in Navigation Menu/Show in Email Footer  
 Added 2 new options to Social Icons - to show in Navigation Menu and to Show in Email footers. Please revisit your Social icons and enable as needed.
 
 #### 2024-09-11
