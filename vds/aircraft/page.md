@@ -42,6 +42,7 @@ Aircraft Management in VDS includes two main sub-pages:
 - **Type Code**: ICAO type designator of the aircraft.
 - **Type**: Category (Passenger, Cargo, etc.).
 - **Allowed Prefixes**: Configurable prefixes for the fleet.
+- **Hide in Phoenix**: Hides the fleet from Aircraft Resource Pages in Phoenix.
 
 #### Aircraft Only
 - **Registration**: Aircraft registration number.
