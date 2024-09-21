@@ -44,6 +44,7 @@ The Airline Callsign Parameters section is used to set which ICAO and IATA codes
 3. **Fill Out the Form**: All fields are mandatory.
     - **ICAO Code**: Enter the 3-character code for your airline (e.g., HTA for our fantasy VA).
     - **IATA Code**: Enter the 2-character code used in flight plans.
+    - **Name**: Operator name shown to Pilots during Flight Dispatch.
     - **Reason**: If applying for a protected callsign, a Reason field will appear. Provide a detailed reason for your request.
 4. **Submit the Form**: If the callsign is not protected, the request will be automatically approved. For protected callsigns, the request will be sent to the callsign owner for review.
 
