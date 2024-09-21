@@ -39,6 +39,7 @@ Aircraft Management in VDS includes two main sub-pages:
 - **Name**: Name of the fleet or aircraft.
 
 #### Fleet Only
+- **Fleet Name for Pilots**: How the fleet shows up for Pilots. If empty. Feet Name will be shown instead.
 - **Type Code**: ICAO type designator of the aircraft.
 - **Type**: Category (Passenger, Cargo, etc.).
 - **Allowed Prefixes**: Configurable prefixes for the fleet.
