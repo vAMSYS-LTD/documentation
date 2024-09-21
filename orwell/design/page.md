@@ -121,7 +121,9 @@ Social icons can be managed and displayed in the navigation under the Community 
 - **Icon**: FontAwesome icon name (e.g., brands.facebook).
 - **Image**: Custom image for the icon. Recommended size is 200x50 pixels.
 - **Image - Dark Mode**: Custom image for the icon, displayed in Dark Mode. Recommended size is 200x50 pixels.
-- **Show on Phoenix Dashboard**: Toggle to display the icon on the Phoenix Dashboard.
+- **Show in Email footer**: Toggle to display the icon in the footer of your emails (WIP).
+- **Show in Phoenix Dashboard**: Toggle to display the icon in Phoenix Dashboard.
+- **Show In Menu**: Toggle to display the icon in Community Navigation Menu.
 
 ## Emails
 {% table %}
