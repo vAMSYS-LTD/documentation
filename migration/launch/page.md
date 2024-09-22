@@ -13,6 +13,7 @@ We’ve got an update on the v5 launch—**vAMSYS v5 will now go live on Septemb
 We’re really sorry for the two-day delay from the original date of September 24th. Last week, we were working flat out to get v5 polished up and ready to ship, but our snag list (all the rough edges and little tweaks left to fix) ended up growing more than we anticipated. We want to make sure vAMSYS v5 launches as smoothly as possible, so we’ll be using those extra days to tackle everything on the list and avoid a chaotic day-1 patch situation. The extra time will also allow us to get ahead on some changeover tasks, meaning less stress when it’s go time!
 
 ### Changeover plan
+- **September 24th** v3 VDS and Importers disabled; Data transfer from v3 to v5 begins.
 - **September 26th, 01:00z:** vAMSYS goes offline for the changeover.
     - All existing pilot bookings, pairs, and routes from v3 will be canceled and closed out.
     - Any flights in progress will be lost and **cannot** be filed once v5 is live, so please plan accordingly.
