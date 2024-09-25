@@ -23,7 +23,9 @@ We’re really sorry for the two-day delay from the original date of September 2
 We’re estimating the changeover process to take about **one hour** to complete.
 
 ### Behind the Scenes
-Starting September 25th, we’ll begin migrating all PIREPs and associated data to the v5 format. A heads-up: any PIREPs from **smartCARS or Pegasus 1.3 (or earlier)** will become legacy PIREPs, meaning the PIREP details won’t be viewable once we switch over to v5.
+Starting September 25th, we’ll begin migrating all PIREPs and associated data to the v5 format. Please do not edit PIREPs created before 20th September. Your efforts will not be moved to v5.
+
+A heads-up: any PIREPs from **smartCARS or Pegasus 1.3 (or earlier)** will become legacy PIREPs, meaning the PIREP details won’t be viewable once we switch over to v5.
 
 ### Steps for You
 Whilst Team vAMSYS handles the v5 changeover on our end, you need to [ensure your VA is ready for v5](/migration/checklist) on yours.
