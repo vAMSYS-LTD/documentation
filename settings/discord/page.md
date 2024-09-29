@@ -46,7 +46,7 @@ In addition - the bot will not be able to change nicknames or remove members fro
 
 The bot is still in its early days and currently only performs two functions:
 ### Conduit for vAMSYS notifications and user management actions
-Discord bot is required to assign the Pilot Rank Discord Roles, send notifications and change discord user nicknames and discord roles. See this [Section](https://docs.dev.vamsys.dev/settings/discord#configuring-notification-channels) to set up Notifications.
+Discord bot is required to assign the Pilot Rank Discord Roles, send notifications and change discord user nicknames and discord roles. See this [Section](https://docs.vamsys.dev/settings/discord#configuring-notification-channels) to set up Notifications.
 
 With the help of the vAMSYS Bot, any name changes or Public Name changes will be automatically reflected on the Discord user, as well any change in Rank.
 In addition, should a pilot stop being a member of your VA or disconnect the link between vAMSYS and their Discord User account - they will be automatically removed from your Discord.
@@ -54,7 +54,7 @@ In addition, should a pilot stop being a member of your VA or disconnect the lin
 ### New Discord User Verification
 vAMSYS Bot can also help with your Pilots joining your Discord by providing a button in a channel of your choice. New users joining your server can click on the button and:
 - Get their Discord Nickname changed to conform with this standard - `Public Name - Pilot Username` - for example -> Lukas J - HTA1249. Public name is set via Name Display setting in User Settings -> General Settings.
-- Get the [Role assigned](https://docs.dev.vamsys.dev/settings/discord#configuring-pilot-rank-discord-roles) based on the Pilot rank they hold at your VA.
+- Get the [Role assigned](https://docs.vamsys.dev/settings/discord#configuring-pilot-rank-discord-roles) based on the Pilot rank they hold at your VA.
 
 A Discord Member, with Manage Channels Permission, can create the authentication button by calling `!pilot-role-command` command.
 
