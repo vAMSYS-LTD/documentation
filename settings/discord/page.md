@@ -85,6 +85,25 @@ After the bot is successfully connected to your Discord server, you can configur
 - **Departure Notification Channel**: Channel where notification will be sent upon flight taking off.
 - **Landing Notification Channel**: Channel where notification will be sent upon the flight landing.
 
+#### VA Statistics Full
+Intent was to create a daily statistics summary for VA Staff. It was intended to be posted in a private channel, not visible to Pilots - but you may do as you wish.
+
+Sent every night, shortly after midnight UTC.
+
+Statistics Full include:
+- Last 24 Hour Pilot registrations, PIREPs filed, Points (+Bonus) awarded, Flight Time, Passengers and Cargo; System Accepted PIREPs, Manually Accepted PIREPs, Rejected/Invalidated PIREPs.
+- Last 30 Day Pilot registrations, PIREPs filed, Points (+Bonus) awarded, Flight Time, Passengers and Cargo
+- Year to Date Pilot registrations, PIREPs filed, Points (+Bonus) awarded, Flight Time, Passengers and Cargo
+- Total Pilot registrations, PIREPs filed, Points (+Bonus) awarded, Flight Time, Passengers and Cargo
+- Average per day for Year to date: Pilot registrations, PIREPs filed, Points (+Bonus) awarded, Flight Time, Passengers and Cargo
+- Summary of outstanding items: PIREPs to Review; PIREPs pending Pilot Reply; Liveries, Registrations, Claims and Transfers to Review
+
+#### VA Statistics Simple
+Intent was to create a daily statistics summary for Pilots. It was intended to be posted in a public channel, not visible to Pilots - but you may do as you wish.
+
+Sent every night, shortly after midnight UTC.
+Message sent includes Last 24 Hour Pilot registrations, PIREPs filed, Points (+Bonus) awarded, Flight Time, Passengers and Cargo
+
 ## Configuring Pilot Rank Discord Roles
 
 You can set up different Discord Roles for each Rank in your VA, or you can keep it simple and give everyone the same role and anything in-between.
