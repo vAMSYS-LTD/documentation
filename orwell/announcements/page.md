@@ -27,7 +27,7 @@ Alerts are temporary, quick messages shown to pilots to convey important informa
 ### Key Features
 - **Create, Edit, and Delete Alerts**: Manage alerts through a user-friendly interface.
 - **Markdown Support**: Write alert content using Markdown for formatting.
-- **Scheduled Display**: Set start and end times for when alerts should be shown.
+- **Scheduled Display**: Set start and end times for when alerts should be shown. *Remember, all times are in Zulu/GMT*
 - **Display Configuration**: Alerts can be configured to be displayed on the Phoenix Dashboard and Pegasus.
 - **Reorderable Alerts**: Alerts can be reordered to show in the specified order in Orwell.
 
@@ -40,7 +40,7 @@ Alerts are temporary, quick messages shown to pilots to convey important informa
       - **Title**: The title of the alert, shown in bold (max 255 characters).
       - **Content**: The alert content, written in Markdown.
       - **Type**: The style of the alert (Success, Danger, Warning, Info, Secondary).
-      - **Start Showing**: The date and time when the alert should start showing.
+      - **Start Showing**: The date and time when the alert should start showing. *Remember, all times are in Zulu/GMT*
       - **Stop Showing**: The date and time when the alert should stop showing. If left empty, it will be treated as a permanent alert.
 3. **Editing an Alert**:
    - Click on the "Edit" button next to the alert you want to modify.
@@ -65,7 +65,7 @@ NOTAMs (Notices to Airmen) are more detailed, long-form content pieces that prov
 ### Key Features
 - **Create, Edit, and Delete NOTAMs**: Manage NOTAMs through a user-friendly interface.
 - **Rich Text Support**: Write NOTAM content using a rich text editor.
-- **Scheduled Display and Priority**: Set start and end times, and assign priority levels to NOTAMs.
+- **Scheduled Display and Priority**: Set start and end times, and assign priority levels to NOTAMs. *Remember, all times are in Zulu/GMT*
 - **Mandatory Acknowledgement**: Require pilots to acknowledge the NOTAM before proceeding with bookings.
 - **Display Configuration**: NOTAMs can be shown on the Dashboard and have a dedicated page in Phoenix.
 
@@ -82,7 +82,7 @@ NOTAMs (Notices to Airmen) are more detailed, long-form content pieces that prov
       - **Must Read**: If enabled, pilots must acknowledge the NOTAM before booking and flying.
       - **Tag**: Informational tag to help organize your NOTAMs.
       - **URL**: Redirects pilots to a specified page.
-      - **Start Showing**: The date and time when the NOTAM should start showing.
+      - **Start Showing**: The date and time when the NOTAM should start showing. *Remember, all times are in Zulu/GMT*
       - **Stop Showing**: The date and time when the NOTAM should stop showing. If left empty, it will be treated as a permanent NOTAM.
 3. **Editing a NOTAM**:
    - Click on the "Edit" button next to the NOTAM you want to modify.
