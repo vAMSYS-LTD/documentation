@@ -60,6 +60,18 @@ A Discord Member, with Manage Channels Permission, can create the authentication
 
 Please note - discord members clicking this button need to have their Discord Account linked with their vAMSYS User account. If they have not done so already, the bot will prompt them to do it and will provide a link to where it can be done.
 
+#### Automating Discord User Verification
+If your new Discord User has already linked an account with vAMSYS and has a pilot account on your VA, it is possible to automate the renaming and role assignment. 
+
+In Pilot Rank Discord Roles section enable 'Automatically Assign' - when User joins your discord, they will be renamed automatically and roles assigned.
+A temporary public message will be shown in first text channel of your Discord:
+```text
+Access Granted 
+
+Hi @user! Welcome to our Discord. We have been able to match you with your vAMSYS account and you have been given access.
+```
+This message will be removed after 10-15 seconds.
+
 ## Configuring Notification Channels
 
 After the bot is successfully connected to your Discord server, you can configure the notification channels for different types of messages.
@@ -77,6 +89,9 @@ After the bot is successfully connected to your Discord server, you can configur
 
 You can set up different Discord Roles for each Rank in your VA, or you can keep it simple and give everyone the same role and anything in-between.
 The Pilot Rank Discord Roles section lists all the Ranks in your VA. Dropdown box lists all your Discord Roles.
+
+Please note that Honorary Rank roles are additive - if a pilot holds a regular and honorary rank - both sets of roles will be applied.
+Please see this [section](https://docs.vamsys.dev/settings/discord#automating-discord-user-verification) regarding 'Automatically Assign' button functionality.
 
 ## Customizing Message Colors
 
