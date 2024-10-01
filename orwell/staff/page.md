@@ -105,9 +105,11 @@ Settings related to managing VDS:
 
 - **Can Manage Aircraft**: Allows managing aircraft and fleets.
 - **Can Manage Airports**: Allows managing airports.
+- **Can Manage Airport Managers**: Allows to change Airport Managers for any airport.
 - **Can Manage Scenery**: Allows managing scenery.
 - **Can Manage Stands**: Allows managing stands and stand groups.
-- **Can Manage Routes**: Allows managing routes.
+- **Can Manage Routes**: Allows managing routes to/from airports where Staff Member is assigned as Airport Manager.
+- **Can Manage All Routes**: Allows managing all routes from all airports despite Airport Manager assignment.
 
 ### Airline Settings
 Settings related to accessing and managing airline settings:
