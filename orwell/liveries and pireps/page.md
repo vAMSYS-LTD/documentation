@@ -1,15 +1,69 @@
 ---
-title: Liveries
+title: Liveries and PIREPs
 nextjs:  
     metadata:  
-        title: Liveries  
-        description: Comprehensive guide to managing liveries in vAMSYS, including review and list management.
+        title: Liveries and PIREPs
+        description: Comprehensive guide to managing liveries and PIREPs in vAMSYS, including review and management.
 ---
 {% callout type="warning" title="Work In Progress!" %}
 Documentation is work in progress. If you notice discrepancies between documentation here and reality on vAMSYS, please let us know in Discord so we can fix it.
 {% /callout %}
 
 Livery management in vAMSYS ensures that pilots use the correct liveries for their flights. Pegasus, our ACARS system, detects and records livery names from the simulator's configuration files. This helps in maintaining consistency and preventing misuse, such as flying the wrong aircraft or using multiple VA liveries simultaneously.
+
+## Pilot Notes
+{% table %}
+* Where
+*  {% align="center" %}
+* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
+---
+* Orwell -> Liveries & PIREPs -> Pilot Notes
+* {% align="center" %}
+* TODO {% align="right" %}
+{% /table %}
+
+This section allows the Staff to add a custom Internal Pilot Notes, which are visible only to other Staff members. These notes can for example include information about disciplinary actions, or other information relevant to the Staff about a specific pilot.
+
+### New Pilot Note fields
+- **Pilot**: Pilot ID (RYRxxxx)
+- **Internal Pilot Note**: Field for the relevant note
+
+### Table Columns
+
+- **Username**: Pilot ID (RYRxxxx)
+- **Name**: Name of the pilot
+- **Note**: Note itself
+- **Entered By**: Name of the Staff member who created the note
+- **Entered On**: Date and time when the Note has been created
+
+## PIREP Comments
+{% table %}
+* Where
+*  {% align="center" %}
+* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
+---
+* Orwell -> Liveries & PIREPs -> PIREP Comments
+* {% align="center" %}
+* TODO {% align="right" %}
+{% /table %}
+
+This section will allow you to see all comments which were posted in the PIREPs, including automatic comments made by vAMSYS Robot based on the Auto-Reject Rules.
+
+### Filtering
+
+The filter will allow you to filter-out the Comment Type
+
+- **All Comments**: All comments posted
+- **Only Pilots**: Only comments made by the Pilot
+- **Only Robot**: Only comments made by the vAMSYS Robot during the validation based on the Auto-Reject Rules
+
+### Table Columns
+
+- **Username**: Pilot ID (RYRxxxx)
+- **Name**: Name of the pilot
+- **PIREP**: PIREP ID
+- **Comment**: Comment added
+- **Entered On**: Date and time when the Note has been created
 
 ## Livery Review
 {% table %}
@@ -80,10 +134,14 @@ Accessible via the 3-dot menu on each row:
 
 These actions do not retroactively affect PIREPs or those pending in the review queue.
 
-## Best Practices
+## Best Practices for Liveries
 
 - **Enable Livery Review**: For all fleets to maintain consistency and prevent misuse.
 - **Regularly Update**: Review the Livery List and update statuses to reflect current usage and policies.
 - **Use AutoReject Rules**: To automate the livery management process and ensure compliance with VA policies.
 
 By effectively managing liveries, VAs can ensure a high standard of operation and consistency within their fleet, providing a better experience for pilots and staff alike.
+
+## PIREP Review
+
+## PIREP List
