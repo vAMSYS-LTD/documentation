@@ -19,7 +19,7 @@ Livery management in vAMSYS ensures that pilots use the correct liveries for the
 ---
 * Orwell -> Liveries & PIREPs -> Pilot Notes
 * {% align="center" %}
-* TODO {% align="right" %}
+* Can Review PIREPs & Claims {% align="right" %}
 {% /table %}
 
 This section allows the Staff to add a custom Internal Pilot Notes, which are visible only to other Staff members. These notes can for example include information about disciplinary actions, or other information relevant to the Staff about a specific pilot.
@@ -44,7 +44,7 @@ This section allows the Staff to add a custom Internal Pilot Notes, which are vi
 ---
 * Orwell -> Liveries & PIREPs -> PIREP Comments
 * {% align="center" %}
-* TODO {% align="right" %}
+* Can Review PIREPs & Claims {% align="right" %}
 {% /table %}
 
 This section will allow you to see all comments which were posted in the PIREPs, including automatic comments made by vAMSYS Robot based on the Auto-Reject Rules.
@@ -143,5 +143,80 @@ These actions do not retroactively affect PIREPs or those pending in the review 
 By effectively managing liveries, VAs can ensure a high standard of operation and consistency within their fleet, providing a better experience for pilots and staff alike.
 
 ## PIREP Review
+{% table %}
+* Where
+*  {% align="center" %}
+* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
+---
+* Orwell -> Liveries & PIREPs -> PIREP Review
+* {% align="center" %}
+* Can Review PIREPs & Claims {% align="right" %}
+{% /table %}
 
 ## PIREP List
+{% table %}
+* Where
+*  {% align="center" %}
+* [Permission](/orwell/staff#creating-or-editing-a-staff-member) {% align="right" %}
+---
+* Orwell -> Liveries & PIREPs -> PIREP List
+* {% align="center" %}
+* Can See All PIREPs & Claims {% align="right" %}
+{% /table %}
+
+This page allows you to view all the PIREPs in your VA.
+
+### Filtering
+- **Departure**: Departure Airport Name/IATA/ICAO Code
+- **Arrival**: Arrival Airport Name/IATA/ICAO Code
+- **Fleet**: Fleet ID / Name
+- **PIREP Type**: Type of PIREP/Flight
+- **Reply Needed**: Whether the PIREP is or is not in the Reply Needed state
+- **PIREP Status**: Status of the PIREP
+- **Regular Points**: Awarded Regular Points range
+- **Bonus Points**: Awarded Bonus Points range
+- **FPM**: Logged landing rate in feet/min
+- **Filed At**: PIREP filing date
+- **Time**: PIREP filing time
+- **Username**: Pilot ID (RYRxxxx) of the pilot who filed the PIREP
+
+### Table Columns
+- **ID**: PIREP ID
+- **Pilot**: Pilot ID (RYRxxxx) and Name
+- **Callsign**: Filed Callsign from the booking
+- **Departure**: Departure Airport Name/IATA/ICAO Code
+- **Arrival**: Arrival Airport Name/IATA/ICAO Code
+- **Aircraft**: Aircraft registration and a Fleet used
+- **Type**: Type of PIREP/Flight
+- **FPM**: Logged landing rate in feet/min
+- **Time**: Logged flight time
+- **R-Pts**: Logged Regular points
+- **B-Pts**: Logged Bonus points
+- **Rply**: Reply Needed status
+- **Status**: PIREP status and a timestamp of when the status was assigned
+- **Network**: Logged online network
+- **Sim**: Logged flight simulator
+
+## PIREP View
+
+You can view any PIREP by clicking on an eye icon in the PIREP List
+
+### Actions
+
+Actions you can perform on the PIREP
+
+- **Accept PIREP**: Sets an Accepted status to the PIREP (Awarded points, awarded hours)
+- **Reject PIREP**: Sets a Rejected status to the PIREP (No points, awarded hours)
+- **Invalidate PIREP**: Sets an Invalidated status to the PIREP (No points, no hours)
+- **Set as Reply Needed**: Sets a Reply Needed state, meaning the Pilot has to react to the PIREP before being able to book or start logging any flight. **In that case, it is needed to leave a comment, so the Pilot knows what to reply to.**
+- **PIREP List for Pilot**: Shows a list of Pilot's PIREPs
+
+### Other sections
+- **Internal Pilot & PIREP Notes**: All internal Pilot and submitted PIREP Notes will be visible here. These notes are not visible to the Pilot.
+- **PIREP Comments**: All comments from the vAMSYS Robot and the Staff can be visible there. These comments are visible to the Pilot.
+- **PIREP Details**: All the details regarding the booked flight major logged data are visible here
+- **Flight Details**: All the logged flight details are visible here. All the times are Zulu (UTC) times
+- **Points**: The awarded/deducted points from the Scoring groups
+- **Route**: Pilot route, which the pilot had filed during the booking, and a Company Route (if filed in the VDS), which is the route from the VDS. Calllsign, Flight Number, Cost Index, and Flight Level correlate to the values set in the VDS to the booked route
+- **Weather**: Logged METARs from the time of departure and arrival.
+- **Compare**: Statistics of average values for other PIREPs between relevant citypair.
