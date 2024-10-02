@@ -1,7 +1,3 @@
-{% callout type="warning" title="Work In Progress!" %}
-Documentation is work in progress. If you notice discrepancies between documentation here and reality on vAMSYS, please let us know in Discord so we can fix it.
-{% /callout %}
-
 ## What is vAMSYS
 
 vAMSYS, the Virtual Airline Management System, is the leading VA management solution by users and feature-base in the industry. We provide platform access and second-line support services for hundreds of Virtual Airlines – which your VA might be one of.
@@ -23,6 +19,8 @@ vAMSYS is used by flight simulation enthusiasts to manage and simulate airline o
 **VDS** => The part of the platform used to manage routes, aircraft, areas, etc.  
 **Orwell** => The part of the platform used to manage your VA, including pilots, PIREP review, and other VA settings.  
 **Pegasus** => Our ACARS tracker. Every pilot needs to have it installed and running to track their flights.  
+**Vision** => Our bug tracker, improvement request and feature submission system. VA Owners and Staff use it to report bugs and influence development of vAMSYS.
+**Hangar** => Our Opinionated File Storage Service - you can use it to store your liveries, checklists and anything else your pilots might need to download.
 **PIREP** => In the real world, this stands for Pilot Report. Pilots file PIREPs with vAMSYS, containing information about their flight. This flight record allows us to process their PIREP and produce scores.  
 **Route** => A description and set of rules for how to get from point A to point B.
 
