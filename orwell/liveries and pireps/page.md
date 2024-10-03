@@ -153,6 +153,30 @@ By effectively managing liveries, VAs can ensure a high standard of operation an
 * Can Review PIREPs & Claims {% align="right" %}
 {% /table %}
 
+PIREP Review section is a queue of PIREPs waiting for Staff review, based on triggered PIREP Auto-Reject rules. When you click on the PIREP Review menu option, it will automatically take you to the first PIREP in Queue, which needs review.
+
+### Actions
+
+Actions you can perform on the PIREP
+
+- **Accept PIREP**: Sets an Accepted status to the PIREP (Awarded points, awarded hours)
+- **Reject PIREP**: Sets a Rejected status to the PIREP (No points, awarded hours)
+- **Invalidate PIREP**: Sets an Invalidated status to the PIREP (No points, no hours)
+- **Set as Reply Needed**: Sets a Reply Needed state, meaning the Pilot has to react to the PIREP before being able to book or start logging any flight. **In that case, it is needed to leave a comment, so the Pilot knows what to reply to.**
+- **PIREP List for Pilot**: Shows a list of Pilot's PIREPs
+
+### Other sections
+- **Internal Pilot & PIREP Notes**: All internal Pilot and submitted PIREP Notes will be visible here. These notes are not visible to the Pilot.
+- **PIREP Comments**: All comments from the vAMSYS Robot and the Staff can be visible there. These comments are visible to the Pilot.
+- **PIREP Details**: All the details regarding the booked flight major logged data are visible here
+- **Flight Details**: All the logged flight details are visible here. All the times are Zulu (UTC) times
+- **PIREP AutoReject**: List of PIREP AutoReject rules which were triggered by the PIREP
+- **Points**: The awarded/deducted points from the Scoring groups
+- **Route**: Pilot route, which the pilot had filed during the booking, and a Company Route (if filed in the VDS), which is the route from the VDS. Calllsign, Flight Number, Cost Index, and Flight Level correlate to the values set in the VDS to the booked route
+- **Weather**: Logged METARs from the time of departure and arrival.
+- **Compare**: Statistics of average values for other PIREPs between relevant citypair.
+- **Data Log**: Log output from Pegasus
+
 ## PIREP List
 {% table %}
 * Where
@@ -164,7 +188,7 @@ By effectively managing liveries, VAs can ensure a high standard of operation an
 * Can See All PIREPs & Claims {% align="right" %}
 {% /table %}
 
-This page allows you to view all the PIREPs in your VA.
+This page allows you to view all the PIREPs in your VA. You can view any PIREP by clicking on an eye icon in the PIREP List, and the interface of the PIREP is the same as in the PIREP Review section.
 
 ### Filtering
 - **Departure**: Departure Airport Name/IATA/ICAO Code
@@ -196,27 +220,3 @@ This page allows you to view all the PIREPs in your VA.
 - **Status**: PIREP status and a timestamp of when the status was assigned
 - **Network**: Logged online network
 - **Sim**: Logged flight simulator
-
-## PIREP View
-
-You can view any PIREP by clicking on an eye icon in the PIREP List
-
-### Actions
-
-Actions you can perform on the PIREP
-
-- **Accept PIREP**: Sets an Accepted status to the PIREP (Awarded points, awarded hours)
-- **Reject PIREP**: Sets a Rejected status to the PIREP (No points, awarded hours)
-- **Invalidate PIREP**: Sets an Invalidated status to the PIREP (No points, no hours)
-- **Set as Reply Needed**: Sets a Reply Needed state, meaning the Pilot has to react to the PIREP before being able to book or start logging any flight. **In that case, it is needed to leave a comment, so the Pilot knows what to reply to.**
-- **PIREP List for Pilot**: Shows a list of Pilot's PIREPs
-
-### Other sections
-- **Internal Pilot & PIREP Notes**: All internal Pilot and submitted PIREP Notes will be visible here. These notes are not visible to the Pilot.
-- **PIREP Comments**: All comments from the vAMSYS Robot and the Staff can be visible there. These comments are visible to the Pilot.
-- **PIREP Details**: All the details regarding the booked flight major logged data are visible here
-- **Flight Details**: All the logged flight details are visible here. All the times are Zulu (UTC) times
-- **Points**: The awarded/deducted points from the Scoring groups
-- **Route**: Pilot route, which the pilot had filed during the booking, and a Company Route (if filed in the VDS), which is the route from the VDS. Calllsign, Flight Number, Cost Index, and Flight Level correlate to the values set in the VDS to the booked route
-- **Weather**: Logged METARs from the time of departure and arrival.
-- **Compare**: Statistics of average values for other PIREPs between relevant citypair.
