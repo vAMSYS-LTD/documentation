@@ -2,8 +2,8 @@
 title: First Steps
 nextjs:  
     metadata:  
-        title: Day 1 - Starting your vAMSYS Configuration
-        description: Day 1 new VA Checklist where we will go over the starting steps of configuring vAMSYS for you
+        title: Day 1 - Initial vAMSYS Configuration
+        description: Day 1 Checklist for new VAs where we will go over the starting steps of configuring vAMSYS
 ---
 
 We will go over the first basic steps of configuring your Virtual Airline.
@@ -175,4 +175,4 @@ You can now see the pages and social icons you created for Phoenix; Take some ti
 This is our last item of focus today - [Create all fleets](/vds/aircraft#creating-editing-fleet-and-aircraft) your VA will be using.
 
 ## Day 2
-Take your time to review all the steps from today, tweak your emails, rank images, make sure you have all the fleets. Tomorrow - proceed to Day 2.
+Take your time to review all the steps from today, tweak your emails, rank images, make sure you have all the fleets. Tomorrow - proceed to [Day 2](/checklist/day-2).

@@ -17,7 +17,7 @@ vAMSYS has been providing services for close to 10 years, we had thousands of Vi
 Setting up your VA in vAMSYS is not going to be completed in an afternoon. We have prepared a setup plan for you which will take you from zero to hero in 6 days. Take your time to do things right, not fast.
 - Day 1 - Initial airline setup and aircraft type configuration
 - Day 2 - Remaining configuration, Aircraft Scorers
-- Day 3 - Routes
+- Day 3 - Routes and First Flight
 - Day 4 - Events and more advanced concepts
 - Day 5 - Working with Importers/Exporters
 - Day 6+ Trialing vAMSYS to see if it fits your needs
@@ -33,7 +33,7 @@ For the length of the trial, we disabled some vAMSYS functionality - it has no b
 - Discord Bot - will not show up for configuration for the length of the trial.
 
 There are additional countdowns in place to ensure you take things at a reasonable pace and to give you time to configure vAMSYS fully:
-- Routes cannot be created for the first 2 days (48 hours)
+- Routes cannot be created for the first 3 days (72 hours)
 - Importers/Exporters cannot be used for first 4 days (96 hours)
 - Subscription cannot be started for the first 4 days (96 hours)
 
