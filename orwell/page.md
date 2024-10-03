@@ -25,6 +25,7 @@ The Orwell Dashboard provides a comprehensive overview of your VA operations and
   - **Protocol:** Access the API documentation.
   - **Vision:** Submit bug reports and suggestions.
   - **Helpdesk:** Get additional support as needed.
+- **JSON Data:** Contains 2 publicly available JSON data outputs you can use
 - **Live Flights Table:** Displays all active flights within your VA, including details such as Pilot name and Username, Flight Callsign, Departure and Arrival Airports, Aircraft in use, ETE/EDT, Remaining Distance, Flight Status, and whether the flight is being conducted Offline or on an Online Network. This list updates every minute. Buttons on the right-hand side provide quick access to the Flight Map and the Pilot's public profile.
 - **Recent Bookings:** Lists bookings made in the last 24 hours, helping you keep track of new activities and engagements from your pilots.
 - **New Registrations:** Shows registrations over the last 7 days. This table includes two quick actions: 'Capitalize Name' (converting names to proper capitalization, e.g., john doe to John Doe) and 'Send Name for Review' (flagging potential fake names for review by Team vAMSYS, as using fake names is against vAMSYS ToS).
