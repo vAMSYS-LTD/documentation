@@ -66,6 +66,9 @@ It's time to create your remaining airports, now that you have Load Factors crea
 
 Quick note on [Airport Managers](/vds/airports#airport-managers) - if they do not have the VDS Permission to edit all routes - they will be limited to seeing and creating routes to/from airports they are Airport Managers of. This option is to limit access to all your routes in cases where the person is responsible for only a limited subset.
 
+### Aircraft Management -> Aircraft
+We made Fleets yesterday, but they do not have any aircraft - [add](/vds/aircraft#creating-editing-fleet-and-aircraft) at least one aircraft to each fleet.
+
 ## Day 3
 Before proceeding to Day 3, just like yesterday - revise the actions of today. Tons of configuration can be made using Load Factors; You can also use the time before Routes unlock to start creating Airport Briefings or Airport information; Check out [Scenery](/vds/airports#scenery) and [Stand](/vds/airports#stands) options if you think your VA would like to use them.
 

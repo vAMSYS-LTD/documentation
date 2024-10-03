@@ -18,7 +18,7 @@ Setting up your VA in vAMSYS is not going to be completed in an afternoon. We ha
 - Day 1 - Initial airline setup and aircraft type configuration
 - Day 2 - Remaining configuration, Aircraft Scorers
 - Day 3 - Routes and First Flight
-- Day 4 - Events and more advanced concepts
+- Day 4 - Events and other modules
 - Day 5 - Working with Importers/Exporters
 - Day 6+ Trialing vAMSYS to see if it fits your needs
 
