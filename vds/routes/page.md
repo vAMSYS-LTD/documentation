@@ -63,10 +63,11 @@ The Routes page provides a detailed view of routes with various options for filt
 - **Arrival**: Filters routes by arrival airport.
 - **Fleet**: Filters routes by fleet.
 - **Type**: Filters routes by type.
-- **Hidden**: Filters hidden routes.
+- **Status**: Filters routes by status (live bookable or pending/un-bookable).
 - **Empty Routes**: Filters routes with or without a defined route.
 - **Start Date**: Filters routes by start date.
 - **End Date**: Filters routes by end date.
+- **Hidden**: Filters hidden routes.
 
 ### Actions
 
