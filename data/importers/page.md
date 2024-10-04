@@ -366,6 +366,9 @@ For each importer, we will cover only columns of interest.
 * Simbrief API value for the Extra Fuel label. Can be "extra", "acf90", "acf99", "addnl", "apu", "hold", "naifr", "opn".  
 *Note: Can be blank, and the column is not required. Find out more on the Simbrief API description at the [Navigraph Forum](https://forum.navigraph.com/t/the-simbrief-api/5298)*
 ---	
+* Hidden
+* Enter '1' for hidden, 0 for un-hidden.
+---	
 * Delete
 * Enter '1' to delete, otherwise blank.
 {% /table %}
