@@ -51,9 +51,7 @@ The Routes page provides a detailed view of routes with various options for filt
 - **C/S & Flight #**: Callsign and flight number.
 - **Time**: Flight duration.
 - **Distance**: Flight distance.
-- **Bookable**: Indicates if Scheduled, Cargo, Charter or VFR flight is active on Phoenix.
-- **Jumpseat**: Indicates if the jumpseat route is active on Phoenix.
-- **Repositioning**: Indicates if the repositioning or training flight is active on Phoenix.
+- **Hidden**: Indicates if route is hidden from Pilots.
 - **Type**: Route type (e.g., Scheduled, Cargo).
 - **Tag**: Route tag.
 - **Start/End**: Start and end dates of the route.
@@ -65,7 +63,7 @@ The Routes page provides a detailed view of routes with various options for filt
 - **Arrival**: Filters routes by arrival airport.
 - **Fleet**: Filters routes by fleet.
 - **Type**: Filters routes by type.
-- **Status**: Filters routes by status (live bookable or pending/un-bookable).
+- **Hidden**: Filters hidden routes.
 - **Empty Routes**: Filters routes with or without a defined route.
 - **Start Date**: Filters routes by start date.
 - **End Date**: Filters routes by end date.
