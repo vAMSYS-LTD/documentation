@@ -45,7 +45,7 @@ Pilot accounts can be deleted manually via the [Pilot Table](/orwell/pilots#pilo
 
 ### Pilot Freezing
 
-Pilots can freeze their accounts, putting them on hold for 60 days. If they do not log in during this period or are not removed for another reason, the account is deleted.
+Pilots can freeze their accounts, putting them on hold for 90 days. If they do not log in during this period or are not removed for another reason, the account is deleted.
 
 ### Pilots Rejoining
 
