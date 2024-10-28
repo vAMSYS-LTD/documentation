@@ -18,7 +18,7 @@ nextjs:
 
 vAMSYS provides several exporters to help you manage and analyze your Virtual Airline data. For a general overview of using exporters, please refer to the [Introduction](/data).
 
-## Aircraft Exporter
+## Aircraft
 
 {% table %}
 * Column
@@ -181,7 +181,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Airport Exporter
+## Airports
 
 {% table %}
 * Column
@@ -248,7 +248,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Container Exporter
+## Containers
 
 {% table %}
 * Column
@@ -287,7 +287,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Fleet Exporter
+## Fleets
 
 {% table %}
 * Column
@@ -446,7 +446,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Hub Exporter
+## Hubs
 
 {% table %}
 * Column
@@ -472,7 +472,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Load Factor Exporter
+## Load Factors
 
 {% table %}
 * Column
@@ -514,7 +514,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Route Exporter
+## Routes
 
 {% table %}
 * Column
@@ -713,7 +713,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Scenery Exporter
+## Sceneries
 
 {% table %}
 * Column
@@ -748,7 +748,7 @@ vAMSYS provides several exporters to help you manage and analyze your Virtual Ai
 * Placeholder for delete action
 {% /table %}
 
-## Stand Exporter
+## Stands
 
 The Stands exporter includes an option to 'Exclude Global Stands provided by vAMSYS,' enabled by default. This exports only VA Custom Stands. Disabling it will include the full vAMSYS Stand database, resulting in over 63,000 rows.
 
@@ -785,7 +785,7 @@ The Stands exporter includes an option to 'Exclude Global Stands provided by vAM
 * Placeholder for delete action
 {% /table %}
 
-## Stand Group Exporter
+## Stand Groups
 
 {% table %}
 * Column
@@ -816,6 +816,234 @@ The Stands exporter includes an option to 'Exclude Global Stands provided by vAM
 * Placeholder for delete action
 {% /table %}
 
+## Airport Managers
+
+{% table %}
+* Column
+* Description
+* Example
+---
+* ID
+* Unique identifier
+* 123
+---
+* Airline Staff ID
+* Associated Staff ID, matches ID in Orwell Staff Table
+* 123456
+---
+* Airport ID
+* Associated Airport ID, matches VDS or Airport Export Airport ID
+* 123456
+---
+* Inbound
+* Indicates if inbound toggle is on
+* 1
+---
+* Delete
+* Placeholder for delete action
+{% /table %}
+
+## Pilot Data
+This exporter is restricted to VA Owners only; Use of this export is highly restricted - please see note in Orwell when attempting Export.
+
+{% table %}
+* Column
+* Description
+* Example
+---
+* ID
+* Unique identifier
+* 123
+---
+* Pilot ID
+* Pilot ID / Username
+* HTA0002
+---
+* Pilot Name
+* Name of the Pilot
+* John Doe
+---
+* Created At
+* Date and Time the account was created
+* 2024-10-28 10:48:15
+---
+* Deleted At
+* Date and Time the account was deleted
+* 2024-10-28 10:48:15 or blank
+---
+* Email
+* Email address of the pilot
+* test@test.com or blank
+---
+* PIREPs
+* 25 - PIREP Count - counts all PIREPs of all statuses and types
+---
+* Bookings
+* 30 - Booking Count
+{% /table %}
+
+## Badges
+
+{% table %}
+* Column
+* Description
+* Example
+---
+* ID
+* Unique identifier
+* 123
+---
+* Name
+* Name of the Badge
+* 750 Flights Flown
+---
+* Description
+* Description Field
+* For completing 750 flights
+---
+* Content
+* Badge Page Content
+* Blank or json string for example [{"type":"headless_panel","data":{"width":"6","internal":null,"component":[{"type":"image","data":{"image":"page_components\/something.png","url":null,"width":"6"}}]}}]
+---
+* Rules
+* Rules for Automatic Badge Awarding
+* Blank or json string for example [{"type":"pirep_airport","data":{"airports":["184617"]}}]
+---
+* Category
+* Category Name
+* Service Awards
+---
+* Delete
+* Placeholder for delete action
+{% /table %}
+
+## Routes - PFPX
+A special type of export returning a .txt file compatible with PFPX.
+
+Export with no equivalent import - PFPX export is to be used for importing routes into PFPX and running validations; There is no PFPX importer and there cannot be one - you need to use Route Importer to import routes.
+
+## PIREP Data
+Export with no equivalent import - PIREP data export is to be used primarily for statistical analysis. Export range limited to 62 days per export.
+
+{% table %}
+* Column
+* Description
+---
+* ID
+* Unique identifier
+---
+* Pilot
+* Pilot Username
+---
+* Departure
+* Departure Airport Identifier
+---
+* Arrival
+* Arrival Airport Identifier
+---
+* Callsign
+* Booking Callsign
+---
+* Flight #
+* Booking Flight Number
+---
+* Aircraft ID
+* ID of aircraft booked - can be matched with Aircraft export
+---
+* Aircraft Registration
+* Registration of the Aircraft
+---
+* Fleet Code
+* Fleet Code - i.e. A320, B777 etc
+---
+* Landing Rate
+* Landing Rate
+---
+* PIREP Start Time
+* DateTime when PIREP logging started
+---
+* Off Blocks Time
+* DateTime when PIREP reached first pushback stage
+---
+* Departure Time
+* DateTime when PIREP reached first takeoff stage
+---
+* Landing Time
+* DateTime when PIREP reached last landing stage
+---
+* On Blocks Time
+* DateTime when PIREP got on blocks
+---
+* Pirep End Time
+* DateTime when PIREP was submitted
+---
+* Taxi Out Time
+* Departure Taxi time in seconds
+---
+* Taxi In Time
+* Arrival Taxi time in seconds
+---
+* Flight Length
+* Time, in seconds, between departure and landing, excluding pauses
+---
+* Flight Distance
+* Distance flown in nautical miles
+---
+* Fuel Used
+* Fuel Used in kilograms
+---
+* Status
+* PIREP Status - new, error, failed, rejected, accepted, complete etc
+---
+* Points
+* PIREP Points
+---
+* Bonus Sum
+* Bonus Points
+---
+* Need Reply
+* Whether PIREP has need reply flag
+---
+* Acars Version
+* ACARS Version
+---
+* Simulator Version
+* Simulator Version
+---
+* Type
+* PIREP Type - scheduled, claim, internal transfer, external transfer
+---
+* Created at
+* DateTime when PIREP entered vAMSYS
+---
+* Paused Total Time
+* Paused time, in seconds, between PIREP start and end
+---
+* Paused Blocks Time
+* Paused time, in seconds, between off and on blocks
+---
+* Paused Air Time
+* Paused time, in seconds, between departure and landing
+---
+* Block Length
+* Time, in seconds, between off and on blocks, excluding pauses
+---
+* Total Length
+* Time, in seconds, between start and end, excluding pauses
+---
+* Paused Preparation
+* Paused time, in seconds, between start and off blocks
+---
+* Livery Id
+* ID of the Livery used
+---
+* Credited Time
+* Time, in seconds, which is awarded to the pilot and counted in statistics
+---
+* Delete
+* Placeholder for delete action
+{% /table %}
+
 ## Changelog
 {% table %}
 * Date
@@ -823,4 +1051,7 @@ The Stands exporter includes an option to 'Exclude Global Stands provided by vAM
 ---
 * 2024-07-18
 * Initial Release
+---
+* 2024-10-28
+* New Exporters
   {% /table %}
