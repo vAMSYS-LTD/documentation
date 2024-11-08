@@ -22,13 +22,9 @@ This is a community guide and not part of official vAMSYS documentation.
 ## Guide
 
 ### Download your routes in the PFPX format
-Right now, there is no official vAMSYS v5 Exporter for the PFPX, so the only way how to convert the vAMSYS routes into a compatible format, is to create a string of text from your Route CSV, which is then compatible with the PFPX.
-- The format is like this: ***"DEP_ICAO""DEST_ICAO";"DEP_ICAO" "ROUTE" "DEST_ICAO"***
-- So for example: **```LKPRLIEE;LKPR VOZ DCT PISAM DCT TAGAS DCT RADLY DCT NIKOL DCT APSUX DCT DEXUL Q125 KOVAS LIEE```**
-- You may try to use this formula for the Google Sheets (and probably MS Excel too) on an official vAMSYS v5 Routes CSV: **```=C2&E2&";"&C2&" "&K2&" "&E2```**
-- Then, paste the entire column, containing all the generated "PFPX compatible" routes into a TXT file
+- Download the routes via the vAMSYS PFPX Exporter in Orwell -> Data -> Export -> Routes - PFPX
 
-### Import the TXT file into PFPX
+### Import the exported TXT file into PFPX
 - Open the PFPX, click on the globe -> Route Data -> Route Database
 ![Step 2-1](/guides/pfpx-airac-validation/step2-1.png)
 - Select Import  
