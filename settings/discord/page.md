@@ -58,6 +58,8 @@ vAMSYS Bot can also help with your Pilots joining your Discord by providing a bu
 
 A Discord Member, with Manage Channels Permission, can create the authentication button by calling `/set-role-request` command.
 
+If our Discord Bot has been present in your channel for a while and /set-role-request command does not show up, kick and re-invite the bot.
+
 Please note - discord members clicking this button need to have their Discord Account linked with their vAMSYS User account. If they have not done so already, the bot will prompt them to do it and will provide a link to where it can be done.
 
 #### Automating Discord User Verification
