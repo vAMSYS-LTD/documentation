@@ -56,7 +56,7 @@ vAMSYS Bot can also help with your Pilots joining your Discord by providing a bu
 - Get their Discord Nickname changed to conform with this standard - `Public Name - Pilot Username` - for example -> Lukas J - HTA1249. Public name is set via Name Display setting in User Settings -> General Settings.
 - Get the [Role assigned](https://docs.vamsys.dev/settings/discord#configuring-pilot-rank-discord-roles) based on the Pilot rank they hold at your VA.
 
-A Discord Member, with Manage Channels Permission, can create the authentication button by calling `!pilot-role-command` command.
+A Discord Member, with Manage Channels Permission, can create the authentication button by calling `/set-role-request` command.
 
 Please note - discord members clicking this button need to have their Discord Account linked with their vAMSYS User account. If they have not done so already, the bot will prompt them to do it and will provide a link to where it can be done.
 
