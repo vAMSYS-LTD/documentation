@@ -844,7 +844,7 @@ The Stands exporter includes an option to 'Exclude Global Stands provided by vAM
 {% /table %}
 
 ## Pilot Data
-This exporter is restricted to VA Owners only; Use of this export is highly restricted - please see note in Orwell when attempting Export.
+This exporter is restricted to VA Owners only; Use of this export is highly restricted - please see note in Orwell when attempting Export. Note, the ability to export PII and email addresses has been withdrawn to prevent abuse. 
 
 {% table %}
 * Column
